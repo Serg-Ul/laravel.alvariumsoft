@@ -1,0 +1,140 @@
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group, .list-group.list-group-root > p .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 0;
+    border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > p > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > p > .list-group-item {
+    padding-left: 45px;
+}
+
+.item-p {
+    margin: 0;
+    position: relative;
+}
+
+.item-p > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#reset-filter {
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+.overlay {
+    display: none;
+}
+
+.delete-item {
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+}
+
+
+.title-for-input {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+    color: #3f729b;
+}
+
+.field-text {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.field__delete {
+    margin-left: 10px;
+}
+
+.field__size {
+    width: 250px;
+}
+
+@media screen and (min-width: 1530px) {
+    .title-for-icon {
+        font-size: 24px !important;
+    }
+}
+
+.btn-own {
+    background-color: #3c8dbc;
+    border: none;
+    color: white;
+}
+
+.btn-own:focus {
+    outline: none;
+}
+
+.frame > iframe {
+    max-width: 300px;
+    height: 200px;
+    width: 100%;
+}
+
+
+.form-control:not(select) {
+    -webkit-appearance: auto;
+    -moz-appearance: unset!important;
+    appearance: auto!important;
+}
+
+#default_img{
+    margin-left: 10px;
+}
+
+.stop-click {
+    background-color: #010101;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+#tireId {
+    outline: none;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.reserved{
+    background-color: #d6224069;
+}
+
+.tires-table tr th div {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tires-table tr th div span i{
+    opacity: 0.5;
+    font-size: 12px;
+}
